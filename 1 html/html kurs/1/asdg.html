@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="acy.php">
+      <div>
+        <label for="ad">isim:</label>
+        <input type="text" id="ad" />
+      </div>
+      <div>
+        <label for="soyad">soyad:</label>
+        <input type="text " id="soyad" />
+      </div>
+      <div>
+        <label for="parola">paraola:</label>
+        <input type="password" id="parola" />
+      </div>
+
+      <div>
+        <label for="test">sen kimsin</label>
+        <textarea name="" id="test" cols="30" rows="10"></textarea>
+      </div>
+
+      <div>
+        <p>en sevdiğin programlama dili</p>
+        <input type="radio" name="programlama" id="seç" />
+        <label for="seç">html</label>
+
+        <input type="radio" name="programlama" id="css" />
+        <label for="css">css</label>
+
+        <input type="radio" name="programlama" id="java" />
+        <label for="java">java</label>
+      </div>
+
+      <div>
+        <p>en sevdiğin ders:</p>
+
+        <input type="checkbox" id="matematik" name="programlama1" />
+        <label for="matematik">Matamatik</label>
+
+        <input type="checkbox" id="fiz" name="programlama1" />
+        <label for="fiz">Fizik</label>
+
+        <input type="checkbox" id="kim" name="programlama1" />
+        <label for="kim">Kimya</label>
+      </div>
+
+      <div>
+        <input type="email" name="" id="emaill" />
+        <label for="emaill">email gir:</label>
+      </div>
+
+      <div>
+        <label for="seçim">bir şehir seç</label>
+        <select name="" id="seçim">
+          <option value="30">dıyarbakır</option>
+          <option value="40">van</option>
+          <option value="50">istanbul</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="doğumgünü">doğum günü</label>
+        <input type="date" id="doğumgünü" />
+      </div>
+
+      <div>
+        <label for="yaş günü">doğum tarihi:</label>
+        <input type="datetime" id="yaş günü" />
+      </div>
+
+      <button type="submit">kaydet</button>
+      <button type="reset">temizle</button>
+    </form>
+  </body>
+</html>

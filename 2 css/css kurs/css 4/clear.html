@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #contanier {
+        background-color: yellowgreen;
+      }
+
+      .kutu {
+        width: 150px;
+        height: 150px;
+        text-align: left;
+        float: right;
+        background-color: blueviolet;
+        /* background-color: inherit; */
+      }
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+
+      /* #kutu_1 {
+        float: left;
+      } */
+    </style>
+  </head>
+  <body>
+    <div id="contanier" class="clearfix">
+      <div class="kutu">kutum 1</div>
+      <!--id="kutu_1" -->
+      <div class="kutu">kutum 2</div>
+      <div class="kutu">kutum 3</div>
+      <!-- <div style="clear: both"></div> -->
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nemo
+      reiciendis nesciunt blanditiis aut. Eius atque ipsum quas qui esse sunt
+      cum facere consequatur, mollitia exercitationem minus aliquid amet est?
+    </p>
+  </body>
+</html>

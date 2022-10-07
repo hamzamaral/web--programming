@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>  
+        /* Attribute selector */
+        /* [target]{
+            background-color: blue;
+        }
+
+        [class]{
+            background-color: brown;
+        } */
+
+        /* Attribute value selector */ 
+        /* [class]{
+            background-color: brown;
+        } */
+        /* [class="active"]{
+            background-color: brown;
+        } */
+
+        /* Attribute '*' selector  */
+        /* [class*="active"]{  * işareti sayesinde içinde active geçen herclası kapsa demek mesala krlactivekrl içinde active geçtiği için bu classı kapsarız
+            background-color: brown;
+        } */
+
+      
+
+        /* Attribute '~' selector  */
+        /* [class~="active"]{ ~ işareti * işaretinin tam tersi iş görürü yani sadece classı active olanları al yanlarında bulunan ekstradan harfler bu kuralı bozar
+            background-color: brown;
+        } */
+
+
+        /* Attribute '|' selector */
+        /* [class|="active"]{ | işareti active en başa yazılması gerekktiği ve activeden sonra gelen value değeri active bitişik olduğu zaman clasıı kapsar
+            background-color: brown;
+        } */
+
+        /* Attribute '^' selector  */
+        /* [class^="active"] { ^ işarei  active en başta olacak activden sonra gelen valur değerler bitişik olmakmzorunda değil
+            background-color: brown;
+        } */
+        
+        /* Attribute '$' selector */
+     
+
+       </style>
+</head>
+<body>
+    <span class="active text ">text</span>
+
+    <nav>
+        <a href="" target="_blank">home</a>
+        <a href="" class="active">about</a>
+        <a href="" class="link">contact</a>
+    </nav>
+    
+</body>
+</html>
