@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            background-color: #0e64a1;
+            padding: 15px;
+            /* flex-direction: column; */
+            /* flex-direction: row; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column-reverse; */
+            /* flex-wrap: nowrap; */
+            /* flex-wrap: wrap; => sayfayı küçültüğümüzde scrobar olması engeller dosya aşağıya kayar */
+            /* flex-wrap: wrap-reverse; */
+            flex-flow: row-reverse wrap; 
+
+
+        }
+        .item{
+            background-color: #d95d4f;
+            padding: 33px;
+            margin: 21px;
+            color: rgb(199, 195, 195);
+            font-size: 25px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+        <div class="item">item 5</div>
+    </div>
+
+
+</body>
+</html>
